@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mon super UI-Kit</title>
+	<link rel="stylesheet" href="style/style.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i|Work+Sans:400,600,700" rel="stylesheet"> 
+</head>
+<body>
+	<nav><h3>Mon super UI-Kit</h3></nav>
+	<section>
+
+		<h3>Colors</h3>	
+		<hr>
+		<div class="container">
+			<div class='col6'>
+				<h4>Primary</h4>
+				<div class='col12 container'>
+					<div class="col3 box radius primary"><p class='text-box'>Primary</p></div>
+					<div class="col3 box radius secondary"><p class='text-box'>Secondary</p></div>
+				</div>
+			</div>	
+			<div class='col6'>
+				<h4>Greys</h4>
+				<div class='col12 container'>
+					<div class="col3 box text-light radius dark"><p class='text-box'>Dark</p></div>
+					<div class="col3 box text-light radius medium-light"><p class='text-box'>Medium</p></div>
+					<div class="col3 box radius light"><p class='text-box'>Light</p></div>
+				</div>
+			</div>	
+			<div class='col6'>
+				<h4>Alerts</h4>
+				<div class='col12 container'>
+					<div class="grow1 box radius warning"><p class='text-box'>Warning</p></div>
+					<div class="grow1 box radius danger"><p class='text-box'>Danger</p></div>
+					<div class="grow1 box radius info"><p class='text-box'>Info</p></div>
+					<div class="grow1 box radius success"><p class='text-box'>Success</p></div>
+				</div>	
+			</div>
+		</div>
+
+
+		<h3>Fonts</h3>	
+		<hr>
+		<div class="container col12">
+			<div class='col4'>
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				<h4>Heading 4</h4>
+				<h5>Heading 5</h5>
+			</div>
+			<div class="col2"></div>
+			<div class='col6'>
+				<p><lead>Paragraphs. This is a lead</lead>, text-justified, consectetur adipiscing elit. Proin a pretium risus, sed semper magna. Praesent rhoncus arcu non pulvinar facilisis. Praesent et erat quis velit condimentum consequat a suscipit elit. Proin volutpat sed arcu quis pretium. Vestibulum sollicitudin nulla ac interdum blandit. Fusce lacinia tincidunt tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque facilisis purus nulla, et suscipit lectus hendrerit in. Sed lacus enim, malesuada id nunc eu, consequat venenatis arcu. Aenean in accumsan sapien, ac hendrerit sapien. Vivamus tempus venenatis nulla, eu vehicula leo interdum non. <small> This is small. Proin ac vehicula ligula.</small> </p>
+			</div>
+		</div>
+		<div class="container">
+			<blockquote>This is a quote. Praesent rhoncus arcu non pulvinar facilisis. Praesent et erat quis velit condimentum consequat a suscipit elit. Proin volutpat sed arcu quis pretium. Vestibulum sollicitudi<footer>The footer said<quote>In a quote</quote></footer></blockquote>
+		</div>
+
+
+		<h3>Buttons</h3>	
+		<small>By style</small>
+		<hr>
+
+			<div class='btn warning btn-square'>Square</div>
+			<div class='btn warning btn-rounded'>Rounded</div>
+			<div class='btn warning btn-round'><i class="far fa-hand-peace"></i></div>
+			<div class='btn text-warning border-warning btn-rounded'>Classic</div>
+<br><br><br>
+		<small>By color</small>
+		<hr>
+			<div class='btn primary btn-square'>Primary</div>
+			<div class='btn secondary btn-square'>Secondary</div>
+			<div class='btn warning btn-square'>Warning</div>
+			<div class='btn danger btn-square'>Danger</div>
+			<div class='btn success btn-square'>Success</div>
+			<div class='btn info btn-square'>Info</div>
+			<div class='btn light btn-square'>Light</div>
+			<div class='btn medium-light text-light btn-square'>Medium</div>
+			<div class='btn dark text-light btn-square'>Dark</div>			
+<br><br><br>
+		<small>By size</small>
+		<hr>
+			<div class='btn-sm warning btn-square'>Small</div>
+			<div class='btn warning btn-square'>Medium</div>
+			<div class='btn-lg warning btn-square'>Largeee</div>
+
+		<h3>Forms</h3>	
+		<hr>
+		<fieldset>
+			<legend>Nice forms:</legend>
+			<label>Name :</label><br>
+			<input type="text" placeholder='Name'><br>
+			<label>Email :</label><br>
+			<input type="email" placeholder='Email'><br>
+			<hr>
+			<label for="ControlSelect1">Example select</label><br>
+			<select id="ControlSelect1">
+				<option>Ca c est ca que tu veux</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><br>
+			<hr>
+			<label for="ControlSelect2">Example multiple select</label><br>
+			<select multiple="" id="ControlSelect2" class='multiple'>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><br>
+			<hr>
+			<label class="formcontainer">This
+				<input type="radio" checked="checked">
+				<span class="checkmarkradio"></span>
+			</label>
+			<label class="formcontainer">That
+				<input type="radio" checked='none'>
+				<span class="checkmarkradio"></span>
+			</label>
+			<hr>
+			<label class="formcontainer">Remember me
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+			</label>
+			<hr>
+			<label>Make your choice :</label><br>
+			<select>
+				<option>Default select</option>
+			</select><br>
+			<hr>
+			<input type="submit" value="Submit">
+		</fieldset><br>
+
+
+		<h3>Awesome Icons</h3>	
+		<hr>
+		<div class="container">
+			<div class="justify-beetween m-auto">
+				<i class="grow1 far fa-hand-peace"></i>
+				<i class="grow1 fas fa-dove"></i>
+				<i class="grow1 fas fa-map-marker-alt"></i>
+				<i class="grow1 fas fa-map-pin"></i>
+				<i class="grow1 fas fa-map-marked-alt"></i>
+				<i class="grow1 fas fa-globe-europe"></i>
+				<i class="grow1 fab fa-500px"></i>
+				<i class="grow1 fab fa-accessible-icon"></i>
+				<i class="grow1 fas fa-ambulance"></i>
+				<i class="grow1 far fa-address-card"></i>
+				<i class="grow1 fas fa-angle-left"></i>
+				<i class="grow1 fas fa-angle-right"></i>
+				<i class="grow1 far fa-angry"></i>
+				<i class="grow1 fas fa-biohazard"></i>
+				<i class="grow1 fas fa-hand-middle-finger"></i>
+				<i class="grow1 fas fa-home"></i>
+				<i class="grow1 fas fa-hamburger"></i>
+				<i class="grow1 fab fa-pied-piper-alt"></i>
+				<i class="grow1 fas fa-toilet"></i>
+				<i class="grow1 far fa-eye-slash"></i>
+				<i class="grow1 far fa-eye"></i>
+				<i class="grow1 fas fa-expand-arrows-alt"></i>
+				<i class="grow1 fas fa-external-link-alt"></i>
+				<i class="grow1 fas fa-exclamation"></i>
+				<i class="grow1 fab fa-ello"></i>
+				<i class="grow1 far fa-frown"></i>
+				<i class="grow1 far fa-meh"></i>
+			</div>
+		</div>
+<hr><br>
+
+		<h3>Nice lists</h3>	
+		<hr>
+			
+		<div class="container m-auto">
+			<div class="col4">
+				<h4>Classic</h4>
+				<div class="list-group">
+					<div class="list-item">Some items in the list</div>
+					<div class="list-item">Some items in the list</div>
+					<div class="list-item">Some items in the list</div>
+					<div class="list-item">Some items in the list</div>
+					<div class="list-item">Some items in the list</div>
+				</div>
+			</div>
+
+			<div class="col4">
+				<h4>Active links/disabled</h4>
+				<div class="list-group">
+					<div class="list-item-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-active"><a href='#'>Disabled item</a></div>
+				</div>
+			</div>
+			<div class="col4">
+				<h4>Color text</h4>
+				<div class="list-group">
+					<div class="list-item text-primary">Some items in the list</div>
+					<div class="list-item text-secondary">Some items in the list</div>
+					<div class="list-item text-success">Some items in the list</div>
+					<div class="list-item text-info">Some items in the list</div>
+					<div class="list-item text-danger">Some items in the list</div>
+				</div>
+			</div>
+		</div><br>
+
+		<h3>Rounded lists</h3>	
+		<hr>
+			
+		<div class="container m-auto">
+			<div class="col4">
+				<h4>Classic</h4>
+				<div class="list-group-rounded">
+					<div class="list-item-rounded">Some items in the list</div>
+					<div class="list-item-rounded">Some items in the list</div>
+					<div class="list-item-rounded">Some items in the list</div>
+					<div class="list-item-rounded">Some items in the list</div>
+					<div class="list-item-rounded">Some items in the list</div>
+				</div>
+			</div>
+
+			<div class="col4">
+				<h4>Active links/disabled</h4>
+				<div class="list-group-rounded">
+					<div class="list-item-rounded-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-rounded-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-rounded-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-rounded-active"><a href='#'>Active items in the list</a></div>
+					<div class="list-item-rounded-active"><a href='#'>Disabled item</a></div>
+				</div>
+			</div>
+			<div class="col4">
+				<h4>Color text</h4>
+				<div class="list-group-rounded">
+					<div class="list-item-rounded text-primary">Some items in the list</div>
+					<div class="list-item-rounded text-secondary">Some items in the list</div>
+					<div class="list-item-rounded text-success">Some items in the list</div>
+					<div class="list-item-rounded text-info">Some items in the list</div>
+					<div class="list-item-rounded text-danger">Some items in the list</div>
+				</div>
+			</div>
+		</div><br>
+
+		<h3>Beautifull Cards</h3>	
+		<hr>
+		<div class="container">	
+			<div class="card m-auto" style="width: 18rem";>
+				<img class="card-img-top" src="style/pix1.jpeg" alt="Card image cap" style="width: 18rem";>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-square secondary">Go somewhere</a>
+				</div>
+			</div>
+
+
+			<div class="card m-auto" style="width: 18rem";>
+				<img class="card-img-top" src="style/pix2.jpeg" alt="Card image cap" style="width: 18rem";>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+		<div class="container">	
+			<div class="card m-auto" style="width: 18rem";>
+				<div class="card-body">
+					<h5 class="card-title"><i class="grow1 far fa-hand-peace"></i>Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-square secondary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card m-auto" style="width: 18rem";>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-square secondary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card m-auto card-image" style="width: 18rem";>
+				<h5 class="card-img-text text-light">Card title</h5>
+				<img class='card-image-full' src="style/pix3.jpeg" alt="Card image cap" style="width: 18rem";>
+			</div>
+		</div>
+
+	</div>
+
+	</section>
+</body>
+</html>

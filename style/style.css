@@ -1,0 +1,675 @@
+nav {
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	height: 30px;
+}
+body {
+	background-color: #f7f7f7;
+	font-family: 'Roboto', sans-serif;
+	color:#464646;
+}
+
+section {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #fafafa;
+	border-radius: 5px;
+	box-shadow: 0 0 15px #e6e6e6;
+	padding: 30px;
+	padding-top: 10px;
+}
+
+header {
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+/*-------------------------  BLOCS  -------------------------*/
+
+.container {
+	display: flex;
+}
+
+.justify-between {
+
+	justify-content: space-between;
+}
+
+.m-auto {
+	margin:auto;
+}
+
+.grow1 {
+	flex-grow: 1;
+	padding: 3px;
+	margin: 5px;
+}
+.grow2 {
+	flex-grow: 2;
+	padding: 3px;
+	margin: 5px;
+}
+.grow3 {
+	flex-grow: 3;
+	padding: 3px;
+	margin: 5px;
+}
+
+.box {
+	height: 70px;
+	width: 80px;	
+}
+
+.text-box {
+	font-size:12px;
+	position: relative;
+	top: 40px;
+	left: -45px;
+}
+
+/***************************************/
+/* 	            COULEURS               */
+/***************************************/
+
+.primary {
+	background-color: #ffd806;
+}
+
+.text-primary {
+  color: #ffd806;	
+}
+
+.secondary {
+	background-color: #00809a;
+}
+
+.text-secondary {
+  color: #00809a;	
+}
+
+.dark {
+	background-color: #464646;
+}
+
+.text-dark {
+  color: #464646;	
+}
+
+.medium-light {
+	background-color: #606060;
+}
+
+.text-medium-light {
+  color: #606060;	
+}
+
+.light {
+	background-color: #f0f0f0;
+}
+
+.text-light {
+  color: #f0f0f0;	
+}
+
+.warning {
+	background-color: #ffc15e;
+}
+
+.text-warning {
+  color: #ffc15e;	
+}
+.border-warning {
+  border: 1px solid #ffc15e;	
+}
+
+.danger {
+	background-color: #ff5e5e;
+}
+
+.text-danger {
+  color: #ff5e5e;	
+}
+
+.success {
+	background-color: #46d73f;
+}
+
+.text-success {
+  color: #46d73f;	
+}
+
+.info {
+	background-color: #85c4d2;
+}
+
+.text-info {
+  color: #85c4d2;	
+}
+
+
+/*-----------------------__STYLE --------------------------*/
+
+.border {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.radius {
+	border-radius: 5px;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	font-size: 51px;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3 {
+	font-size: 27px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+
+p {
+	text-indent: 50px;
+	text-align: justify;
+}
+
+lead {
+	font-size:25px;
+	font-weight: bold;
+}
+
+blockquote {
+	font-style: italic;
+	text-indent: 20px;
+	padding: 15px;
+	border: 1px solid #ffc15e;
+}
+
+blockquote footer:before {
+	content: '—';
+}
+
+blockquote footer {
+	position:relative;
+	right: -700px;
+	font-style: normal;
+	font-size: 14px;
+	margin-top: 7px;
+}
+
+blockquote footer quote:before{
+	content: '  ';
+}
+blockquote footer quote{
+	font-style: italic;
+}
+
+small {
+
+}
+.disabled {
+    pointer-events:none; 
+    opacity:0.6;         
+}
+
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color:#464646;
+} 
+/*-------------------------------------- BUTTONS -----------------------------------*/
+
+.btn {
+	text-align: center;
+	font-size: 12px;
+	padding: 12px 16px;
+	margin:10px;	
+	display: inline-block;
+}
+
+.btn:hover {
+
+	box-shadow: 0 0 5px #606060;
+}
+
+.btn-lg {
+	text-align: center;
+	font-size: 14px;
+	padding: 16px 18px;
+	margin:10px;	
+	display: inline-block;
+}
+.btn-sm {
+	text-align: center;
+	font-size: 10px;
+	padding: 8px 10px;
+	margin:10px;	
+	display: inline-block;
+}
+
+
+.btn-square {
+	border-radius: 3px;
+}
+
+.btn-rounded {
+	border-radius: 20px;
+}
+
+
+.btn-round {
+	border-radius: 20px;
+}
+
+
+/*------------------------------------------- FORM ----------------------------------------*/
+fieldset {
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+fieldset legend {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 19px;
+}
+
+input, select {
+	margin:10px;
+}
+
+label {
+
+}
+
+input[type="text"] {
+	border :1px solid #ccc;
+	border-radius: 20px;
+	height: 35px;
+	width: 50%;
+	padding-left: 12px;
+	  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+	}
+
+input[type=text]:focus {
+  box-shadow: 0 0 15px #e6e6e6;
+  width:80%;
+}
+
+input[type="email"] {
+	border :1px solid #ccc;
+	border-radius: 20px;
+	height: 35px;
+	width: 50%;
+	padding-left: 12px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=email]:focus {
+	box-shadow: 0 0 15px #e6e6e6;
+	width:80%;
+}
+
+
+input::placeholder {
+	font-family: 'Work Sans', sans-serif;
+
+}
+input:placeholder-shown {
+	font-family: 'Work Sans', sans-serif;
+}
+
+select {
+	width:50%;
+	height:35px;
+	padding-left: 12px;
+	border :1px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+select:focus {
+	box-shadow: 0 0 30px #e6e6e6;
+}
+
+.multiple {
+	height: 75px;
+}
+
+
+
+ input[type=button], input[type=submit], input[type=reset] {
+  background-color: #ffc15e;
+  border: none;
+	text-align: center;
+	font-size: 12px;
+	padding: 12px 16px;
+	margin:10px;	
+	display: inline-block;
+border-radius: 20px;
+  cursor: pointer;
+}
+
+ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	box-shadow: 0 0 5px #606060;
+}
+
+
+
+
+ .button {
+  background-color: #85c4d2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/*-------------------------------------- LISTS -------------------------------*/
+
+.list-group {
+ box-shadow: 0 0 15px #ccc ;
+}
+
+
+div.list-item:first-child, div.list-item-active:first-child {
+	border-top :none;
+}
+
+.list-item, .list-item-active {
+	border-top :1px solid #ccc;
+	padding:15px;
+}
+
+.list-item:hover {
+	background-color: #f0f0f0;
+}
+
+.list-item-active:hover {
+	background-color: #85c4d2;
+}
+	
+
+
+/*-------------------------------------- LISTS RONDED -------------------------------*/
+
+.list-group-rounded {
+ box-shadow: 0 0 15px #ccc ;
+ border-radius: 20px;
+}
+
+
+div.list-item-rounded:first-child, div.list-item-rounded-active:first-child {
+	border-top :none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+div.list-item-rounded:last-child, div.list-item-rounded-active:last-child {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.list-item-rounded, .list-item-rounded-active {
+	border-top :1px solid #ccc;
+	padding:15px;
+}
+
+.list-item-rounded:hover {
+	background-color: #f0f0f0;
+}
+
+.list-item-rounded-active:hover {
+	background-color: #85c4d2;
+}
+	
+/*-------------------------------------- CARDS -------------------------------*/
+
+
+.card {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 15px #ccc ;
+}
+
+.card-img-top {
+	height: 100%
+	width: 100%;
+	opacity: 0.7;
+}
+.card-img-top:hover {
+	opacity: 1;
+}
+
+.card-body {
+	padding:0px 15px;
+}
+
+.card-title {
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.card-text {
+	padding: 0px 7px;
+	text-indent: 15px;
+}
+
+.card-image {
+  position: relative;
+  text-align: center;
+}
+
+.card-img-text {
+	height: 100%
+	width: 100%;
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+.card-image-full:hover {
+	opacity: 0.7;
+}
+
+
+/*-------------------------------------- BOX COL -------------------------------*/
+
+
+.row {
+	display: flex;
+}
+
+.col2 {
+	width: 16,66%;
+	padding: 3px;
+	margin: 5px;
+}
+
+.col3 {
+	width: 33,3%;
+	padding: 3px;
+	margin: 5px;
+}
+.col4 {
+	width: 25%;
+	padding: 3px;
+	margin: 5px;
+}
+.col6 {
+	width: 50%;
+	padding: 3px;
+	margin: 5px;
+}
+.col8 {
+	width: 66,66%;
+	padding: 3px;
+	margin: 5px;
+}
+.col10 {
+	width: 83,33%;
+	padding: 3px;
+	margin: 5px;
+}
+.col12 {
+	width: 100%;
+	padding: 3px;
+	margin: 5px;	
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------ RADIO ET CHECKBOXES ------------------------------*/
+
+ /* Customize the label (the container) */
+.formcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-top: 5px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.formcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+.formcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.formcontainer input:checked ~ .checkmark {
+  background-color: #85c4d2;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.formcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.formcontainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
+
+
+
+/*------------------ RADIO ---------------*/
+/* Create a custom radio button */
+.checkmarkradio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.formcontainer:hover input ~ .checkmarkradio {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.formcontainer input:checked ~ .checkmarkradio {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkradio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.formcontainer input:checked ~ .checkmarkradio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.formcontainer .checkmarkradio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
